@@ -29,6 +29,26 @@ a {
     text-decoration: none;
 }
 
+.greeting {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.greeting-text {
+    color: #FFBDF7;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 4px 15px;
+    border: 2px solid white;
+    color: white;
+    background-color: #AEE2FF;
+    border-radius: 8px;
+}
+
 .intro {
     display: flex;
     justify-content: center;
@@ -43,6 +63,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     width: 30%;
+    gap: 10px;
 }
 
 .intro img {
@@ -63,6 +84,9 @@ img {
 .random-title {
     text-align: center;
     padding: 20px;
+    color: #645CBB;
+    font-weight: 800;
+    font-size: 25px;
 }
 
 .images {
@@ -78,6 +102,8 @@ img {
     align-items: center;
     text-align: center;
     gap: 10px;
+    font-weight: 700;
+    color: #645CBB;
 }
 
 .image-container img {
@@ -88,8 +114,14 @@ img {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 40px 20%;
+    padding: 40px 30%;
     background-color: white;
+}
+
+.quote-text {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .author {
@@ -105,7 +137,7 @@ img {
 }
 
 .sign-up {
-    height: 50%;
+    height: 100px;
     width: 50%;
     border-radius: 8px;
     background-color: #3E54AC;
@@ -118,6 +150,20 @@ img {
     flex-direction: column;
     width: 60%;
     margin-right: auto;
+}
+
+.sign-up-vote {
+    flex: initial;
+}
+
+.sign-up-title {
+    color: white;
+    font-size: 25px;
+}
+
+.sign-up-text {
+    color: white;
+    font-size: 15px;
 }
 
 .footer{
